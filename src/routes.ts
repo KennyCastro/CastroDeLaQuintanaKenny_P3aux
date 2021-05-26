@@ -3,12 +3,18 @@ const router = Router();
 
 router.get("/", (req: Request, res: Response) => {
   res.send(
-    '<h1 style="margin: 80px 80px 0px 80px">' +
-      "your full name" +
+    '<body bgcolor="black">' +
+      '<h1 style="margin: 80px 80px 0px 80px">' +
+      '<font color="#ffffff">' +
+      "Kenny Fabricio Castro De La Quintana" +
+      "</font>" +
       "</h1>" +
       '<p style="margin: 20px 0px 0px 80px">' +
+      '<font color="#ffffff">' +
       "this is my Api" +
-      "</p>"
+      "</font>" +
+      "</p>" +
+      "</body>"
   );
 });
 
